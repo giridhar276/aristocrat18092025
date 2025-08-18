@@ -1,0 +1,216 @@
+
+int a = 10;
+float b = 3.4;
+int a[3] {10,20,30};
+
+Everything in python is object
+Every object contains methods 
+
+
+
+python - objects
+--------------
+number
+string
+list
+tuple
+dictionary
+set
+
+
+
+number
+------
+number can be integer or decimal or octal or hexa.
+
+
+a = 10
+val = 13.4
+
+
+string
+------
+string is defined in single or double or triple quotes.
+
+aname = 'python programming'
+bname = "java programming"
+cname = """unix shell scripting"""
+dname = '''gen ai'''
+
+
+list ( array in C)
+---------------
+list contains set of elements.
+Elements can be numbers or strings or any combination(list of lists, list of tuples,list of dictionaries)
+list is defined in [].
+
+
+alist = [10,20,30,40]
+blist = ["java","unix",'oracle']
+clist = [45,67.45,"java","unix"]
+
+
+tuple ( immutable or uneditable or unchangeable )
+------
+tuple contains set of elements.
+Elements can be numbers or strings or any combination
+tuple is defined in ().
+**** Elements inside tuple cannot be modified directly ***
+tuple is faster compared to list
+
+atup = (30,40,50,90)
+btup = ("java","unix",4,67.12,"oracle")
+
+
+
+dictionary( hash  hashmap  json  associativearray  pairs)
+-----------
+dictionary contains key-value pairs
+dictionar is defined in {}.
+indexing is not allowed in dictionary
+key can be number or string used to identify the value.
+value can be number or string or list or tuple or dictionary.
+
+
+syntax:   object = { key:value , key:value , key:value }
+example:   book  = {"chap1":10,"chap2":20 ,"chap3":30 ,"chap1":100,1:2}
+           data  = {1:2,3:4,5:6}
+           bookinfo  = {"chap1":["ram","UK"],"chap2":["rita","US"] }
+
+
+
+
+
+book - index
+-------------
+chap1   10
+chap2   20
+chap3   30
+chap4   40
+ 
+
+
+
+set ( venn diagrams in school maths)
+----
+set is unordered collection of UNIQUE elements of same type.
+
+
+aset = {10,10,20,30,30,30}
+
+
+
+
+objects classification
+--------------------
+mutable objects  : list dictionary set
+immutable objects: number string  tuple
+
+
+
+
+
+
+libraries
+----------
+
+#include<stdio.h>
+#include<conio.h>
+#include<math.h>
+#include<stdlib.h>
+#include<string.h>
+#include<time.h>
+#include<datime.h>
+#include<stdmanip.h>
+#include<graphics.h>
+#include<ctype.h>
+
+python
+-------
+6L+ libraries for every task/requirement.
+
+
+requirement
+-----------
+core python + libraries + domain expertise = task
+
+python + cloud aumation
+python + web development
+python + analytics
+python + Data science
+python + image processing
+python + NLP
+python + games development
+python + testing
+python + GUI 
+
+
+
+
+commenting in python
+------------------
+
+# this is single line commenting
+
+
+"""
+this is 
+multline comment
+
+"""
+
+
+
+
+conditions
+----------
+- if 
+- if-else 
+- if-elif-elif-elif-elif-elif-else
+
+
+control statements
+---------------
+for loop
+while loop
+
+
+
+level1
+level1
+level1
+level1
+if cond:
+    level2
+    level2
+    level2
+    level2
+level1
+level1
+
+
+
+operators
+----------
+
+arithmetic operators :    +  -  *   %   /
+
+relational operators :    <   <=   >     >=   ==   !=
+
+logical operators    :  and  or   not   ( &&   ||  are NOT allowed in python)
+
+name = 'python'
+if len(name) == 6   and name.islower():
+    # execute this
+
+assignment operators ( ++ and -- are NOT allowed in python )
+------------------
+val = 10
+val = val + 1     (or)    val+=1   (or) val++
+
+special operators 
+---------------
+in 
+as 
++
+*
