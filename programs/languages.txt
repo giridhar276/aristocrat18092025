@@ -1,0 +1,8 @@
+python,1990,bangalore,networking
+java,1950,delhi,autmation
+unix,1970,att,networking
+linux,1975,att,server
+python,1990,bangalore,networking
+java,1950,delhi,autmation
+unix,1970,att,networking
+linux,1975,att,server

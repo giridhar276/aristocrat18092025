@@ -13,8 +13,16 @@ alist.insert(6,39)
 print("After inserting :",alist)
 alist.pop(1)       # 1 is the index       # list.pop(index)   # value at that index is removed
 print("After pop operation :",alist)
-alist.remove(66)  # 67 is the value in the list
-print("After removing :",alist)
+
+
+
+if 660 in alist:
+    alist.remove(660)  # 67 is the value in the list
+    print("After removing :",alist)
+else:
+    print("value not in list")
+
+    
 alist.sort()   # ascending order
 print("After sorting :",alist)
 alist.sort(reverse=True)  # descending order

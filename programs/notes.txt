@@ -214,3 +214,298 @@ in
 as 
 +
 *
+
+
+
+functions
+---------
+builtin functions
+user defined functions 
+
+
+builtin functions
+------------------
+print()
+isinstance()
+input()
+len()
+type()
+range()
+id()
+sum()
+max()
+min()
+map()
+filter()
+dir()
+help()
+
+str()
+list()
+tuple()
+dict()
+int()
+float()
+set()
+oct()
+hex()
+
+
+
+
+How to display all the builtin functions ?
+----------------------------------------
+In the interactive prompt:
+
+dir(__builtins__)
+
+
+##or
+print(dir(__builtins__))
+
+
+user defined function | definition | function | block | subroutine
+------------------------------------------------------------------
+reusability
+we define block once and call it for multiple times.
+
+
+different ways of passing arguments
+---------------
+fixed arguments
+default arguments
+keyword arguments
+variable length arguments
+
+
+
+
+
+
+print(alist)
+print(book)
+len(string)
+len(alist)
+
+
+Every object has methods :
+methods are object specific
+string methods ar different
+list methods are different
+tuple mehods ar different
+
+
+Everything runs in OS is process 
+
+Every process contains system calls
+
+
+
+
+file handling
+---------------
+
+txt
+xlsx
+json
+xml
+csv
+docx
+jpeg
+mp4
+gif
+pptx
+xlsx
+sql
+yml
+conf
+log 
+mp3
+dat 
+bat 
+exe 
+tmp 
+zip
+rar
+7z
+.tar
+.gz
+.tar.gz
+enc
+pdf 
+
+
+
+working with flat files       :  txt csv  conf  log   xml   json  yml  -----------------> builtin libraries 
+
+working with third party files : pdf  xlsx  docx  mp4  pptx   ----------------> we need to have a third party library
+
+
+
+working with flat files   
+------------------------
+read mode (r )
+write mode ( w )
+append mode  ( a)
+
+
+opening the file 
+------------------
+syntax :  object = open(filename,mode)
+example:   fr  = open("abc.txt","r")
+           case1 : if the file is existing, we can read the file
+           case2 : if the file is not existings, throws error
+
+           fw  = open("abc.txt","w")
+           case1 : If the file is not existing , file gets created first
+           case2 : If the file is already existing, it overwrites the file
+
+           fa  = open("abc.txt","a")
+           case1 : If the file is not existing , file gets created first
+           case2 : If the file is already existing, it appends the new content
+
+
+close the file 
+------------
+object.close()
+
+
+
+read operation
+---------------
+- read the file line by line using file object
+- fobj.readlines()
+- fobj.read() 
+- using csv library 
+- using pandas library 
+
+
+
+exception handling 
+-----------------
+try    : actual code in try block
+except : if anything went wrong in try block... except gets executed
+else   : if error not in try block ............ else will be executed
+finally: all the times
+raise  : create exceptions
+
+chapgpt ---> applicationname buid on gpt architecture
+
+
+       R, SAS 
+                                                                            Agentic AI
+                                                                                |     
+                                                                        Generative AI models
+                                                                        - pretrained models                                      
+                                                                                |
+                                                                         keras,tensorflow,pytorch  ( deep learning libraries)
+                                                                            -image processing,text analytics
+                                                                                |
+                                                                           sklearn ( ML algorithms)                                                                                         
+                                                                            - classifications,regressions,
+                                                                                |
+                                                                            matplotlib,searborn,plotly ( visualization libraries)
+                                                                                |
+                                                                            pandas ( data analytics)
+                                                                                |
+                                                                            scipy  ( scientific computations)
+                                                                                |
+                                                                            numpy  ( numerical processing)                        
+
+
+2000 -------------------------------------------------2010 -------------------------------------------------2025
+        automations,                                pandasV1.0
+        web development,
+        testing
+        numpy,scipy ( for data analytics)
+        
+
+
+
+extensions in python
+-------------------
+.py     ---> python file
+.ipynb  ---> notebooks  or jupyter notebooks
+              - using vs code
+              - using anaconda jupyter notebooks
+              - google colab ( web browser)
+
+
+pandas - datastructures
+--------------------
+-series  1- D
+-dataframe -  2-D
+
+
+
+
+libraries
+---------
+builtin libraries
+---------------
+when you install python... all the builtin libraries are made available with python by default.
+
+
+################################## frequently used builtin libraries #############################
+
+os         : os level activities
+math       : mathematical operations
+sys        :  sys and python config data
+shutil     : copy,move, rmtree  etc
+urllib     : read the web, downloading the files
+logging    : logging all the events
+smtplib    : sending the mails
+ftplib     : performing ftp operations
+sysconfig  :  sys and python config data
+zipfile    : create/extract the zip files
+rarfile    : create/extract the rar files
+cryptopgraphy : encrypting and decrypting the data or files
+tarfile    : create/extract the tar files
+filecmp    : comparing files or directories
+sqlite3    : python default database
+csv        : reading/writing csv files
+xml        : reading/writing xml files
+calendar   : display month,year calendar info
+datetime   : working with date n time
+time       : working with date n time
+fractions  : working with decimal values
+glob       : display all the files
+heapq      : more of array operations ( getting largest among list )
+subprocess : executing system commands in python (  subprocess.getoutput("ls -ltr")
+pdb        : python debugger
+platform   : platform information
+random     : random operations ( shuffling , random digit ... )
+re         : grep + awk + sed
+----------------------------
+re.search() : seach for anything in the string.
+re.match()  : at the beginning
+re.sub()    : replace the patterns
+re.findall(): find al the patterns
+
+socket     : networking programming
+stat       : stats of the file
+statistics : basic statistics
+pathlib	   : Object-oriented file path operations
+time	     : Delays, timestamps, performance checks
+logging	   : Logging for scripts/apps (replace print for real apps)
+argparse	 : Command-line interface (CLI) argument parsing
+configparser : 	Read/write .ini config files
+json	     :Serialize/deserialize JSON (common in APIs)
+uuid	     : Generate unique IDs (useful in files, databases)
+statistics	:Basic stats: mean, median, stdev
+random	    :Random number generation, sampling
+collections	:Specialized containers (defaultdict, Counter, namedtuple)
+traceback	   :Print/format exception tracebacks
+warnings	   :Raise and handle warnings
+
+
+
+
+
+third party libraries
+---------------------
+Depending on your requirement (testing, cloud automation, analytics, ml, web developement, guitools) developer 
+has to install the third party library from www.pypi.org using
+
+- pip tool 
+- downloading and installing manually.

@@ -1,0 +1,11 @@
+workclass,,,,,,age,workclass,fnlwgt,education
+ State-gov,,,,,,39, State-gov,77516, Bachelors
+ Self-emp-not-inc,,,,,,50, Self-emp-not-inc,83311, Bachelors
+ Private,,,,,,38, Private,215646, HS-grad
+ Private,,,,,,53, Private,234721, 11th
+ Private,,,,,,28, Private,338409, Bachelors
+ Private,,,,,,37, Private,284582, Masters
+ Private,,,,,,49, Private,160187, 9th
+ Self-emp-not-inc,,,,,,52, Self-emp-not-inc,209642, HS-grad
+,,,,,,,,,
+series,,,,,,dataframe,,,

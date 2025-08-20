@@ -1,4 +1,23 @@
 
+
+
+()
+---
+print()
+range()
+name.upper()
+book.keys()
+
+
+[]
+----
+alist[0]
+name[1]
+book["chap1"] #10
+
+
+
+
 # slicing
 name = "python programming"
 #print(name[18])
@@ -27,6 +46,7 @@ print(name[-5:-11:-1])
 
 
 name = "python programming"
+
 print(name.upper())
 print(name.lower())
 print(name.capitalize())
@@ -43,6 +63,12 @@ print(name.count('ja'))
 
 print(name.find("prog")) # existence of substring
 print(name.find("abc"))  # if the output is -1 substring is not found.
+
+
+if "abc" in name:
+    print("do something")
+
+
 print(name.split(" "))
 print(name.startswith("p")) # True
 print(name.startswith("g")) # False
